@@ -44,4 +44,4 @@ def get_user_by_email(email: str):
 
 
 if __name__ == "__main__":
-    uvicorn.run(application, host="0.0.0.0", port=5001)
+    uvicorn.run(application, host="0.0.0.0", port=9001)
